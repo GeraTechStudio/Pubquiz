@@ -1,0 +1,1417 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+
+/* хлебные крошки */
+	#breadcrumb {
+	  list-style: none;
+	  display: inline-block;
+	  padding-left: 0px;
+	  margin-bottom: 20px;
+	}
+	#breadcrumb .icon {
+	  font-size: 14px;
+	}
+	#breadcrumb li {
+	  float: left;
+	}
+	#breadcrumb li a {
+	  color: #fff;
+	  display: block;
+	  background: #31495c;
+	  text-decoration: none;
+	  position: relative;
+	  height: 34px;
+	  line-height: 34px;
+	  padding: 0 10px 0 5px;
+	  text-align: center;
+	  margin-right: 23px;
+	  -webkit-user-select: none;
+	  -moz-user-select: none;
+	  -ms-user-select: none;
+	  user-select: none;  
+	}
+	#breadcrumb li:first-child a {
+	  padding-left: 15px;
+	  -moz-border-radius: 4px 0 0 4px;
+	  -webkit-border-radius: 4px;
+	  border-radius: 4px 0 0 4px;
+	}
+	#breadcrumb li:first-child a:before {
+	  border: none;
+	}
+	#breadcrumb li:last-child a {
+	  padding-right: 15px;
+	  -moz-border-radius: 0 4px 4px 0;
+	  -webkit-border-radius: 0;
+	  border-radius: 0 4px 4px 0;
+	}
+	#breadcrumb li:last-child a:after {
+	  border: none;
+	}
+	#breadcrumb li a:before, #breadcrumb li a:after {
+	  content: "";
+	  position: absolute;
+	  top: 0;
+	  border: 0 solid #31495c;
+	  border-width: 17px 10px;
+	  width: 0;
+	  height: 0;
+	}
+	#breadcrumb li a:before {
+	  left: -20px;
+	  border-left-color: transparent;
+	}
+	#breadcrumb li a:hover:before {
+	    border-color: #3f95a4;
+	    border-left-color: transparent;
+	}
+	#breadcrumb li a:after {
+	  left: 100%;
+	  border-color: transparent;
+	  border-left-color: #31495c;
+	}
+	#breadcrumb li a:hover {
+	  background-color: #3f95a4;
+	}
+	#breadcrumb li a:hover:after {
+	  border-left-color: #3f95a4;
+	}
+	#breadcrumb li a:active {
+	  background-color: #a22587;
+	}
+	#breadcrumb li a:active:before {
+	  border-color: #a22587;
+	  border-left-color: transparent;
+	}
+	#breadcrumb li a:active:after {
+	  border-left-color: #a22587;
+	}
+	#breadcrumb li.current a {
+	  pointer-events: none;
+	  cursor: not-allowed;
+	  filter: alpha(opacity=75);
+	  -webkit-box-shadow: none;
+	  box-shadow: none;
+	  opacity: 0.7;
+	}
+
+
+
+/*upload*/
+	.file-upload {
+	     position: relative; /* Даем возможность делать позиционирование, внутри данного элемента */
+	     overflow: hidden; /* Все что выходит за пределы - скрываем */
+	     width: 100%; /* Задаем ширину кнопки выбора файла */
+	     height: 35px; /* Задаем высоту кнопки выбора файла */
+	     background: #6da047;
+	     border-radius: 3px;
+	     padding: 8px 4px;
+	     color: #fff;
+	     text-align: center;
+	}
+	.file-upload:hover {
+	     background: #7aad55;
+	}
+	.file-upload input[type="file"]{
+	    display: none; /* Обязательно скрываем настоящий Input File */
+	}
+	.file-upload label {
+	     /* Растягиваем label на всю возможную площадь блока .file-upload */
+	     display: flex;
+	     justify-content: center;
+	     position: absolute;
+	     top: 0;
+	     left: 0;
+	     width: 100%;
+	     height: 100%;
+	     cursor: pointer;
+	}
+	.file-upload span {
+	     line-height: 36px; /* Делаем вертикальное выравнивание текста, который написан на кнопке */
+	}
+	.filename {
+	     background: #fff;
+	     border: 0;
+	}
+	.update{
+		flex: auto;
+    	display: flex;
+	}
+	.update button{
+		flex: auto;
+	    background-color: transparent;
+	    border: none;
+	    height: 100%;
+	}
+
+/*Login, Registration, Reset, Email*/
+
+	.position_relative{
+		position: static;
+	}
+	.auth_content{
+	}
+	
+	.inline_ask{
+		font-size: 1.05em;
+	}
+
+	.inline{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		align-items: center;
+		margin: 3px 0;
+	}
+		.inline a{
+			text-decoration: none;
+		}
+		.auth_content h1{
+			text-align: center;
+		    font-family: "RobotoBold";
+		    font-weight: 900;
+		    font-size: 2em;
+		    letter-spacing: 3px;
+		}
+
+			.auth_content input{
+				border-radius: 15px 0 15px 0;
+			    border: 1.5px solid #3f95a4;
+			    padding: 25px 0 25px 45px;
+			    font-size: 1.2em;
+			    box-sizing: border-box;
+			    outline: none;
+			    margin-bottom: 10px;
+			    color: #9f9b99;
+			}
+			
+/*Home_page*/
+
+	#edit_profile_user{
+		cursor:pointer;
+	}
+
+	.home_page{
+		background-color: rgb(247, 247, 247);
+		padding: 25px 0 60px;
+	}
+		.home_main_box{
+			width: 100%;
+			border: 2.5px solid #6c7d8a;
+    		box-shadow: 4px 4px 14px #9E9E9E;
+		}
+			.home_user_box{
+				width: 100%;
+				height: 300px;
+				overflow-y: hidden;
+				position: relative;
+			}
+				.home_user_box-img{
+					min-height: 88%;
+					background-color: rgb(194, 214, 218);
+					display: flex;
+				    align-items: center;
+				    justify-content: center;
+				    -webkit-background-size: 257%;
+				    background-size: 257%;
+				    background-repeat: no-repeat;
+				}
+				#User_img{
+					position: absolute;
+					width: 100%;
+					bottom:-35px;
+					transition: .35s all ease;
+				}
+					.home_user_box:hover #User_img{
+						bottom:38px;
+					}
+						.img-transparent{
+							border-radius:0;
+							background-color: rgba(49, 73, 92, 0.61);
+						}
+
+						.img-transparent:hover{
+							background-color: rgba(49, 73, 92, 0.8);
+						}
+
+					.home_user_box-img svg{
+						font-size: 7.5em;
+					    color: rgba(63, 149, 164, 0.84);
+					}
+				
+				.user_avatar{
+					background-position: center center;
+					-webkit-background-size: 300%;
+					background-size: 300%;
+					padding:7px 17px;
+				}
+				.home_user_box-title {
+				    min-height: 13%;
+				    position: absolute;
+				    width: 100%;
+				    bottom: 0;
+				    display: flex;
+				    justify-content: center;
+				    align-items: center;
+				    font-size: 1.5em;
+				    color: #ecf1f3;
+				    font-weight: 900;
+				    letter-spacing: 2px;
+				    font-family: "RobotoBold";
+				    background-color: #539fac;
+				}
+				.panel-group .panel {
+				    margin-bottom: 0;
+				    border-radius: 4px;
+				    background-color: #c2d6da;
+				    border-radius: 0;
+				    border: 0;
+				    color: #44757d;
+				    transition: .2s all ease;
+				}
+				.panel-heading{
+					padding: 0;
+					border: none;
+				}
+				.panel-title a{
+					width: 100%;
+					display: inline-block;
+					padding: 10px 15px;
+				}
+				.panel-title a:hover,.panel-title a:focus, .link_box a:hover, .link_box a:focus{
+    				text-decoration: none;
+				}
+				.panel-heading:hover,.panel-heading:focus,.panel-heading:active{
+					color: #ecf1f3;
+				    text-decoration: none;
+				    background-color: #539facd9;
+					border-radius: 0;
+				}
+				.panel-body{
+					background-color: #dce4e6;
+					padding: 5px;
+				}
+				.link_box{
+					display: flex;
+					flex-direction: column;
+					justify-content: space-between;
+					align-items: flex-start;
+				}
+				.link_box a{
+					color: #44757d;
+					margin-left: 20px;
+				}
+				.link_box a:hover, .link_box a:focus{
+				    color: #185673;				
+				}
+				.panel-group .panel+.panel {
+				    margin-top: 1px;
+				}
+				.panel-group {
+				    margin-bottom: 0px;
+				}
+		.home_game_boxs{
+
+		}
+
+			.home_game__one_box{
+				width:100%;
+				margin-bottom: 15px;
+
+			}
+				.home_game_one_box_img{
+					height: 120px;
+					position: relative;
+				}	
+					.user_query_message{
+						position: absolute;
+					    background-color: #e41e10;
+					    border-radius: 50%;
+					    width: 30px;
+					    height: 30px;
+					    display: flex;
+					    justify-content: center;
+					    align-items: center;
+					    right: -10px;
+					    top: -8px;
+					    color: #fff;
+					    border: 2.5px solid #d01609;
+					}
+
+					.home_game_one_box_img img{
+						width: 100%;
+						height: 100%;
+					}	
+
+					.panel_game{
+						background-color: #539facd9;
+						color: #ecf1f3;
+					}
+						.panel_game:hover, .panel_game:focus{
+							color: #44757d;
+    						background-color: #c2d6da;
+						}
+						
+						.empty_box{
+							height: 72px;
+						}
+
+						.add_comand_game{
+							display: block;
+						    height: 100%;
+						    width: 100%;
+						    background-color: #c8d5d8;
+						    font-size: 2em;
+						}
+							
+							.add_comand_game:hover{
+								text-decoration: none;
+							}
+
+							.add_comand_game:hover .add_command_button{
+								opacity: 0;
+							}
+
+							.add_comand_game:hover .add_command_round{
+								opacity: 1;
+							}
+
+							.add_command_round{
+								position: absolute;
+								top:0;
+								width: 100%;
+								height: 100%;
+								opacity: 0;
+								transition: .25s opacity ease ;
+								display: flex;
+								justify-content: center;
+								align-items: center;
+							}
+								.add_comand_game span{
+									position: relative;
+								    width: 45px;
+								    height: 45px;
+								    display: flex;
+								    align-items: center;
+								    justify-content: center;
+								    border: 1px dashed;
+								    border-radius: 50%;	
+								}
+
+									.add_comand_game span button{
+										z-index: 1;
+									    border: none;
+									    background-color: transparent;
+									}
+
+							.add_command_button{
+								width: 100%;
+							    font-size: 0.5em;
+							    text-align: center;
+							    position: absolute;
+							    top: 0;
+							    display: flex;
+							    align-items: center;
+							    justify-content: center;
+							    height: 100%;
+							    color: #637980;
+							    cursor: default;
+							    transition: .25s opacity ease;
+							}
+
+		.home_content_page{
+
+		}
+			
+			.content_welcome{
+				background-color: #c2d6da;
+			    padding: 15px;
+			    margin: 0 15px;
+			    border: 2.1px solid #72818d;
+			    box-shadow: 5px 6px 11px #9E9E9E;
+			}
+
+			.content_welcome h1{
+				margin: 0;
+			    text-align: center;
+			    color: #6c7d8a;
+			    font-weight: 900;
+			}
+
+			.content_timer h2, .content_popular h2{
+				text-align: center;
+			    font-size: 1.5em;
+			    letter-spacing: 2px;
+				font-family: "RobotoCondensedLight";
+   				color: #416a71;
+   				margin: 10px 0 5px;
+			}
+				
+				.content_timer{
+					background-color: #c2d6da;
+				    padding: 15px;
+				    margin: 15px;
+				    border: 2.1px solid #72818d;
+				    box-shadow: 5px 6px 11px #9E9E9E;
+				}
+					.content_timer h2 span{
+						font-weight: 900;
+					}
+
+						.home_timer{
+							width: 100%;
+							text-align: center;
+						}
+
+							.home_timer .etDays,
+							.home_timer .etHours,
+							.home_timer .etMinutes,
+							.home_timer .etSeconds {
+								padding: 15px 25px;
+							    min-width: auto;
+							    margin-right: 15px;
+							}
+
+			.content_popular h2{
+				margin: 20px 0;
+			}	
+
+				.content_popular .main-box-list-game{
+					display: block;
+					padding: 0;
+					margin-bottom: 15px;
+				}
+					.main-box-list-game_background{
+						background-size: 100% 100%;
+						cursor: default;
+						position:relative;
+						transition: .2s all ease;
+						padding: 5px 10px;
+					}	
+						.main-box-list-game_background::before{
+							content:"";
+							width: 100%;
+							height: 100%;
+							position: absolute;
+							top: 0;
+							left: 0;
+							right: 0;
+							bottom: 0;
+						}
+						.content_popular .main-box-list-game:hover .main-box-list-game_background::before{
+							background-color: rgba(49, 73, 92, 0.7);
+						}
+
+
+					.main-box-list-game_background h3,
+					.main-box-list-game_background h4,
+					.main-box-list-game_background p,
+					.main-box-list-game_background .pie {
+						opacity: 0;
+						transition: .2s all ease;
+						cursor: default;
+						position: relative;
+						color: #ecf1f3;
+					}
+						.content_popular .main-box-list-game:hover .main-box-list-game_background h3,
+						.content_popular .main-box-list-game:hover .main-box-list-game_background h4,
+						.content_popular .main-box-list-game:hover .main-box-list-game_background p,
+						.content_popular .main-box-list-game:hover .main-box-list-game_background .pie {
+							opacity: 1;
+						}
+
+						.panel-title_popular{
+							margin:0 !important;
+						}
+							.panel-title_popular a{
+								width: 100%;
+								display: inline-block;
+							    padding: 10px 15px;
+							    text-transform: capitalize;
+							    color: #ecf1f1;
+							    transition: .05s all ease;
+							    cursor: pointer;
+							    letter-spacing: 1px;
+							}
+								.panel-title_popular a:hover{
+									text-decoration: none;
+									color: #44757d;
+								}
+									.panel-title_popular a:focus, .panel-title_popular a:active, .pabs a:focus, .pabs a:active{
+										text-decoration: none;
+									}
+
+									.pabs{
+										width: 100%;
+									}	
+
+										.reverse{
+											background-color: #31495c!important;
+										}
+											.reverse:hover{
+												background-color: #63a7b2!important;
+											}
+
+										.pabs .panel_game{
+											background-color: #63a7b2;
+											transition: .2s all ease;
+										}
+											.pabs a{
+												margin-left: 0;
+												color:#31495c;
+											}
+												.pabs .panel-title_popular a{
+													color:#ecf1f1;
+												}
+									
+												.pabs .panel_game:hover{
+													background-color: #31495c;
+												}
+
+													.pabs .panel_game:hover a{
+														color:#fff;
+													}	
+														.pabs .panel-title_popular a:focus, .pabs .panel-title_popular a:active{
+															color: #fff;
+														}
+														.pabs .panel-body{
+															background-color: #dce4e6;
+														}
+
+															.link_box_elements{
+																display: flex;
+															 	justify-content: space-between;
+															 	width: 100%;
+															 	align-items:center;
+															 	overflow: hidden;
+															}
+																.link_box_pab{
+																	padding-left: 15px;
+																}
+																	.link_box_pab a:hover{
+																		color: #e63b2f;;
+																	}
+
+																	.link_box_pab a:focus, .link_box_pab a:active,{
+																		color: #e4eced;
+																	}
+
+																.link_box_marker{
+																	padding-right: 15px;
+																}
+																	.link_box_marker svg{
+																		color: #ef3b2efa;
+    																	font-size: 1.1em;
+																	}
+																		.link_box_marker svg:hover{
+																			color: #31495c;
+	    																	font-size: 1.1em;
+																		}
+
+																		.link_box_marker svg:focus, .link_box_marker svg:active{
+																			color: #e63b2f;
+																		}
+
+									.show_game{
+										width: 100%;
+    									text-align: center;
+									}
+										.show_game a{
+											margin: 0;
+										}
+											.show_game a svg{
+												color: #e41e10;
+											    font-size: 2em;
+											    margin: 5px;
+											}
+
+
+/*Admin_Page*/
+
+	.admin{
+		flex:auto;
+	}
+		.home_content_page{
+			margin:0 15px;
+		}
+			.admin .content_welcome{
+				background-color: #31495c;
+			    padding: 5px;
+			    margin: 0 0 15px;
+			    border: none;
+			    box-shadow: none;
+			}
+			
+				.admin .content_welcome h1{
+					margin: 0;
+				    text-align: center;
+				    color: #fdfefe;
+				    font-size: 1.6em;
+				}
+
+					.admin .content_welcome h1 button{
+						margin-left: 10px;
+	   					font-size: 0.9em;
+	   					color: #a7a7a7;
+	   					background-color: transparent;
+	   					border:none;
+					}
+
+						.admin .content_welcome h1 button:hover{
+						color:#fff;
+					}
+
+			.admin_panel{
+				margin-bottom: 10px;
+			}
+
+				.admin_panel .panel-group .panel{
+					color: #e3e8ea;
+		    		background-color: #31495c;
+				}
+		.home_content_page .nav-tabs>li.active>a,
+		.home_content_page .nav-tabs>li.active>a:focus,
+		.home_content_page .nav-tabs>li.active>a:hover{
+			color: #fcfdfd;
+		    cursor: default;
+		    background-color: #3f95a4;
+		    border: 1px solid #31495c;
+		    border-bottom-color: transparent;
+		}
+		.home_content_page .nav-tabs>li>a{
+			color: #6c7d8a;
+		}
+		.home_content_page .nav-tabs {
+		    border-bottom: 1px solid #31495c;
+		}
+
+		.column_login{
+		    max-width: 130px;
+		    overflow: hidden;	
+		}
+		.column_name{
+		    max-width: 235px;
+		    overflow: hidden;
+		}   
+
+		.toolbar{
+			display: flex;
+		    justify-content: space-between;
+		    -ms-align-items: center;
+		    align-items: center;
+		    flex-wrap: wrap;
+		    background-color: #c0d4d8;
+		    padding: 5px 10px;
+		}
+			.toolbar_manage-page,
+			.toolbar_order{
+				display: flex;
+				justify-content: space-between;
+				-ms-align-items: center;
+				align-items: center;
+				width: 25%;
+			}
+			.toolbar_searcher_table input{
+			    border: 1px solid #296294;
+			    background-color: white;
+			    padding: 3px 22px 3px 5px;
+			    outline: none;
+			    font-size: 0.9em;
+			} 
+
+			.toolbar_manage_items{
+				width: 30%;
+    			display: flex;
+    			justify-content: space-between;
+    			-ms-align-items: center;
+    			align-items: center;
+			}
+				.toolbar_manage_items select,
+				.toolbar_manage-page select{
+					width: 60%;
+					padding: 3px 5px 3px 5px;
+					outline: none;
+					border: 1px solid #296294;
+				}
+				.toolbar_manage-page select{
+					width: 40%;
+				}
+
+			.toolbar_order{
+				width: 5%;
+				justify-content: center;
+			}
+	.toolbar-btn{
+		font-size: 1em;
+		color: #31495c;
+    	font-size: 1.2em;
+    	margin:0px 2px;
+    	cursor:pointer;
+	}
+
+	.toolbar-btn-active,
+	.toolbar-btn:hover{
+		color: #3f95a4;
+	}
+	.toolbar-btn-disabled{
+	    color: rgba(49, 73, 92, 0.47)!important;
+	    cursor: not-allowed;
+	}
+
+	.preload{
+		left:120%;
+	}
+
+/*Pub Manager*/
+	.pubs_box{
+		margin: 0 -15px;
+	}
+		.pub_box{
+		    min-height: 300px;
+		    border: 2px solid #31495c;
+		    box-shadow: 5px 5px 16px rgba(128, 128, 128, 0.7490196078431373);
+		    position:relative;
+		    transition: all .15s ease;
+		    margin-bottom: 15px;
+
+		}
+
+			.pub_box_background{
+				background-position: center center;
+			    position: absolute;
+			    top: 0;
+			    bottom: 0;
+			    right: 0;
+			    left: 0;
+			    background-repeat: no-repeat;
+			}	
+				
+				.full_screen{
+					width:100%;
+					height:100%;
+					display: flex;
+				    justify-content: center;
+				    align-items: center;
+				    transition: background-color .3s cubic-bezier(0, 0, 1, 1);
+				}
+					.pub_box:hover .full_screen{
+						background-color: rgba(49, 73, 92, 0.55);
+					} 
+
+						.full_screen button{
+							margin-bottom: 40px;
+							border:none;
+							background-color: transparent;
+							z-index:5;
+						}
+							
+							.full_screen button svg{
+								font-size: 3em;
+								color: #8BC34A;
+								opacity: 0;
+								transition: opacity .4s cubic-bezier(0, 0, 1, 1);
+							}
+
+								.pub_box:hover .full_screen button svg{
+									opacity: 1;
+								}
+
+									.pub_box:hover .full_screen button svg:hover{
+										color:#fff;
+									}
+		
+				.pub_box_manager_panel, .pub_box_manager_type{
+					position: absolute;
+				    bottom: 0;
+				    width: 100%;
+				    background: rgba(49, 73, 92, 0.78);
+				    display: flex;
+				    flex-direction: column;
+				    justify-content: space-around;
+				    height: 0px;
+   					overflow: hidden;
+   					transition: height .35s cubic-bezier(0, 0, 1, 1);
+				}
+				
+				.pub_box_manager_type{
+					top:0;
+				}
+					.pub_box:hover .pub_box_manager_type, .pub_box:focus .pub_box_manager_type{
+   						height:60px;
+					}
+
+					.pub_box_manager_panel h2, .pub_box_manager_type h2{
+						margin: 0;
+					    text-align: center;
+					    color: #fff;
+					    font-family: "RobotoCondensedRegular";
+					    font-size: 1.5em;
+					    letter-spacing: 1px;
+					    padding: 10px 0;	
+					}
+
+					.manager_button{
+						display: flex;
+						justify-content:space-around;
+						align-items:center;
+					}
+
+					.pub_box:hover .pub_box_manager_panel, .pub_box:focus .pub_box_manager_panel{
+   						height:110px;
+					}
+
+			.pub_box:hover,.pub_box:focus{
+				box-shadow: 5px 5px 13px rgb(49, 73, 92);
+    			border: 2px solid rgb(49, 73, 92);
+
+			}
+
+			.pub_filter{
+				background-color: #c8d5d8;
+   				padding: 5px 5px 10px;
+			}	
+
+				.pub_filter h3{
+					margin: 5px 0 10px;
+				    color: #7c7984;
+				    text-align: center;
+				    font-size: 1.3em;
+				}
+				
+				.sercher_block_padding{
+					padding: 0 45px 0px 10px;
+				}
+
+				.sercher_block{
+					display: flex;
+				}
+
+					.sercher_block .search, .sercher_block .create_project{
+						border-radius: 0 6px 6px 0px;
+					}
+					
+					#frmProject{
+						width: 100%;
+						display: flex;
+					}	
+
+					#searcher, #project_name{
+						border-radius: 6px 0px 0px 6px;
+						border-right: none;
+					}
+					#projet_color{
+						flex: auto;
+					    height: auto;
+					    background-color: white;
+					    border: 1px solid #ccc;
+					    border-left: none;
+					}
+					.project_inline{
+						display: flex;
+						align-items:flex-end;
+					}
+						.mini_box_color{
+							height: 17px;
+						    min-width: 20px;
+							margin: 0px 0px 1px 10px;	
+						}
+
+/*Pub info modal*/
+	.pub_info_content{
+		margin: 10px -15px;
+	}
+		.pub_img_box{
+			height: 200px;
+		}
+			.pub_info_content h1{
+				margin: 0;
+			    padding: 0;
+			    font-size: 1.5em;
+			    text-align: center;
+			    color: #3f95a4;
+    			font-weight: 900;
+			}	
+				.pub_info_content h1 span{
+
+				    color: #000;
+	    			font-weight: 300;
+				}
+
+				#pub_desc{
+					text-align: justify;
+   					margin: 5px 10px 0 0;
+				}
+				#pub_info_content_address{
+				   margin-left: 3px;
+				}
+				#map_url{
+					margin: 10px 0 0;
+    				height: 400px;
+				}
+
+					#map_url iframe{
+						border: 0;
+					    width: 100%;
+					    height: 100%;
+					}
+			/***************/
+				.ui-autocomplete {list-style: none;padding: 0;margin: 0;display: block;outline: none;position: fixed;top: 0;left: 0;cursor: default;z-index: 9999999;overflow-y: auto;overflow-x: hidden;color: #000;max-height: 100px;border: 1px solid #aaaaaa;background: #ffffff;}
+				.ui-autocomplete .ui-menu-item {  position: relative;  margin: 0;  padding: 3px 5px 3px 5px;  cursor: pointer;  min-height: 0;}
+				.ui-helper-hidden-accessible { display: none;}
+				.ui-autocomplete .ui-menu-item:hover {background: #eee;}
+			/***************/
+
+
+/*Game Table*/
+	.box_container{
+		display: flex;
+	    height: 35px;
+	    padding-top: 30px;
+	    justify-content: center;
+	}
+		.box_add_game{
+			border: none;
+		    background-color: transparent;
+		    width: 0;
+		    color: transparent;
+		    padding: 0;
+		    letter-spacing: 0.5px;
+		    font-family: "RobotoBold";
+		    transition:all .6s ease;
+		    overflow: hidden;
+		}
+		.none-padding{
+			padding:none;
+		}
+		.box_container:hover .box_add_game{
+			width: 90%;
+		    border-radius: 8px;
+		    background-color: #31495c;
+		    color: #fff;
+		   
+		}
+/*End Game Table*/
+
+/*Game Creation*/
+	.game_time_zone{
+		display: flex;
+	}
+
+	.game_img_content{
+		margin: 0 -15px;
+	}
+	.pub_offset{
+		margin: 0 -30px;
+	}
+	.fc-day{
+		position: relative;
+		overflow: hidden;
+	}
+		.cl-game{
+		    position: absolute;
+		    width: 100%;
+		    top: 30px;
+		    display: flex;
+		    flex-direction: column;
+		    align-items: center;
+		    text-align: center;
+		    white-space: nowrap;
+		    overflow: hidden;
+		}
+			.cl-game-link{
+				border: 1.5px solid red;
+			    display: inline-block;
+			    border-radius: 4px;
+			    width: 90%;
+			    color: #fff;
+			    text-align: left;
+			    padding-left: 5px;
+			    font-size: .8em;
+			    overflow: hidden;
+			    margin-bottom: 3px;
+			}
+				.cl-game-link:hover{
+					text-decoration: none;
+				}
+
+	.min_height{
+		min-height:220px;
+		font-size: .8em;
+	}
+		.min_height:hover .pub_box_manager_panel, .min_height:focus .pub_box_manager_panel{
+			height: 70px;
+		}
+		.game_img_box{
+		    border: 1.3px dashed #3f95a4;
+		    width: 100%;
+		    height: 400px;
+		    display: flex;
+		    justify-content: center;
+		    align-items: center;
+		    font-size: 1.5em;
+		}
+		
+		.img_box-true{
+			border:none;
+		}
+			.blue_upload{
+			    background: #31495c;	
+			}
+
+	.game_description{
+		min-height: 435px;
+	    min-width: 100%;
+	    max-width: 100%;
+	}
+	
+	.game_stages{
+		margin-right: -15px;
+	}
+		.game_stages button{
+			height:34px;
+			font-size: 0.9em!important;
+			outline: none;
+		}
+
+
+	.table_inputs{
+		display: flex;
+	    justify-content: flex-start;
+	    align-items: center;
+	    margin-bottom: 15px;
+	}
+		.table_input{
+			border-right: none;
+    		border-radius: 4px 0 0 4px;
+		}
+		.accept_input{
+		    border-radius: 0px 4px 4px 0px;
+		    border: 1px solid #ccc;
+		    background-color: #3f95a4;
+		    color: #fff;
+		    border-left: none;
+		    padding: 3px;
+		}
+
+
+
+
+
+
+
+
+
+/*User home*/
+	.add_game_border{
+		border-radius: 4px;
+	}
+		.create_game_name{
+			display: flex;
+			justify-content: flex-start;
+			align-items:center;
+		    padding-top: 1px;
+		}
+			.command_name_label{
+				font-size: 0.6em;
+			    text-align: center;
+			    font-family: "RobotoCondensedRegular";
+			    letter-spacing: 1px;
+			    padding: 10px 0;
+	    		color: #637980;
+	    		margin:0;
+			}
+
+			.command_input{
+				width: calc(100% - 66px);
+				font-size: 0.45em;
+			    height: 30px;
+			    border-radius: 4px;
+			    border: 1px solid rgba(49, 73, 92, 0.55);
+			    border-radius: 4px 0 0 4px;
+			}	
+
+				.command_warning{
+					color: #c4322e;
+				    font-weight: 600;
+				    letter-spacing: 0.8px;
+				}
+		
+		.update_command_img{
+			height: 100%;
+		    position: relative;
+		    display: flex;
+		    justify-content: center;
+		    align-items: center;
+		    background-color: #728d75;
+		    overflow: hidden;
+		}
+			.update_command_img svg{
+				font-size: 3em;
+				color: #31495c;
+			}
+
+			.command_img{
+				position: absolute;
+			    width: 100%;
+			    bottom: -36px;
+			    transition: .35s all ease; 
+			}
+
+				.update_command_img:hover .command_img{
+					bottom: 0;
+				}
+
+/*User Game*/
+	
+	.game_title{
+		display: flex;
+		justify-content:space-between;
+		align-items:center;
+	}
+		.game_title h2{
+			text-transform: uppercase;
+		    margin:0;
+		    font-family: "RobotoBold";
+		    color: #3f95a4;
+		}
+
+		.game_timer{
+			display:flex;
+			font-family: "RobotoBold";
+			letter-spacing: .5px;
+			align-items:flex-end;
+			color:#3f95a4;
+		}
+			.game_timer i{
+				margin: 0;
+				font-size: 1.7em;
+			}
+			.game_timer span{
+				font-size: 1em;
+			    padding: 0 4px 0 1px;
+			    color: rgb(244, 67, 54);
+			}
+	
+	.game_timer_show .etUnit {
+	    padding: 10px 17px;
+	    max-width: 80px;
+	    min-width: 80px;
+	    height: 80px;
+	    margin-right: 9px;
+	    font-size: 0.6em;
+	    margin-bottom: 20px;
+	}
+
+	.game_img_box img{
+		width: 100%;
+		height: 100%;
+	}
+		.game_img_box_none_border{
+			border:none;
+		}
+
+	.about_game h3{
+		font-family: "RobotoBold";
+	    color: #31495c;
+	    margin: 12px 0 5px;
+	}
+
+	.game_desc{
+	    width: 100%;
+	    margin-top: 33px;
+	    text-align: justify;
+	}
+
+	.game_locations{
+		margin-top: 12px;
+		margin-left: 100px;
+	}
+
+		.table_diagram{
+			position: absolute;
+			right: 14%;
+    		top: 17%;
+			transition: .55s all ease;
+		}
+
+			.pub_box:hover .table_diagram{
+				opacity: 0;
+			}  
+
+
+		.command_background{
+		    height: 40px;
+		    position: relative;
+		    display: flex;
+		    font-size: 1.5em;
+		    justify-content: center;
+		    align-items: center;
+		    background-color: #728d75;
+		    overflow: hidden;
+		}
+
+			.command_row{
+				margin-top: 10px;
+			}
+				.command_name{
+					overflow: hidden;
+				    font-size: 1.5em;
+				    line-height: 32px;
+				    font-weight: 900;
+				}
+
+					.free_places{
+						font-size: 1.2em;
+					    line-height: 38px;
+					    font-weight: 900;
+					}
+
+						.list_margin{
+							margin-top: 5px;
+						}
+
+	/*MyGame*/
+
+		.myGameTitle{
+		    font-weight: 900;
+		    color: #31495c;
+		    margin: -10px 0 30px;			
+		}
+		.absent_game{
+		    margin: 120px 0;
+		    text-align: center;
+		    color: #F44336;
+		    font-weight: 900;
+		    letter-spacing: 1px;			
+		}
+			.img_padding{
+				padding:0 15px;
+				height:270px;
+			}
+			.game_name{
+				margin: 0;
+			    font-size: 1.3em;
+			    color: #31495c;
+			}
+
+			.rating_warning{
+				text-align: center;
+				margin-top: 145px;
+			}
+
+	/*Rating*/
+		.rating_filters{
+			display: flex;
+		    align-items: center;
+		    justify-content: flex-start;
+		    margin-top: 4px;
+		}
+			.rating_filters .form-group{
+			    margin: 0;
+			    flex-basis: 45%;
+			    flex-shrink: 1;
+			}
+				.rating_filters label{
+				    font-size: 1.2em;
+				    color: #31495c;
+				    text-align: center;
+				}
+					.rating_filters_find{
+						flex: auto;
+					    margin-bottom: 3px;
+					}
+		.rules_info .panel-title a{
+			text-align: center;
+    		font-size: 18px;
+		}
+		.rules_info	.panel-body{
+			background-color: #f7f7f7;
+		}
+			.rules_table th, .rules_table td{
+				border:2px solid #31495c!important;
+				text-align: center!important;
+	    		vertical-align: middle!important;
+			}
+
+			.search-table-outter {
+				overflow-x:hidden;
+				position:relative;
+			}
+               	 #w-scroll {
+               	 	position:static;
+               	 	width:100%;
+               	 	height:auto;
+               	 	overflow-x:scroll
+               	 }
+                    #w-scroll .scroll {
+                    	height:1px;
+                    }
+			.wrap_table tr{
+				display: flex;
+			}
+			.global_rating_table table{
+				border-right: 1px solid #31495c!important;
+				border-bottom: 1px solid #31495c!important;
+			}
+				#full_width{
+					border-right: none!important;
+	    			border-left: none!important;
+				}
+				.global_rating_table th, .global_rating_table td{
+					border:1px solid #31495c!important;
+					border-bottom: none!important;
+	    			border-right: none!important;
+	    			max-height:39.2px;
+	    			min-height:39.2px;
+	    			box-sizing:border-box;
+	    			white-space:pre;
+	    			overflow: hidden;
+				}
+				.none_padding{
+					padding:0!important;
+				}
+	            .wrap_table th,.wrap_table td{
+	            	width: 100px!important;
+	    			display: block;
+					text-align: center!important;
+		    		vertical-align: middle!important;
+	            }
+
+	            .footer_scoller{
+	            	position: fixed;
+				    width: 100%;
+				    bottom: 0;
+				    right: 0;
+				    left: 0;
+				    display: flex;
+				    justify-content: center;
+	            }
+	            .global_rating_table{
+	            	margin-top: 50px;
+	            }
+
+
+

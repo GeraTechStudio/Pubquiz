@@ -1,0 +1,894 @@
+/*==========  Desktop First Method  ==========*/
+
+@media only screen and (max-width : 1510px){
+	.game_timer_show .etUnit {
+	    padding: 10px 15px;
+	    text-align: center;
+	    max-width: 75px;
+	    min-width: 75px;
+	    margin-right: 8px;
+	    font-size: 0.56em;
+	    margin-bottom: 20px;
+	}
+}
+
+/*Personal*/
+@media only screen and (max-width : 1490px){
+	.main-smart_call-content_header{
+		margin-bottom: 9.9%
+	}
+	.smart_call{
+		top: 40px;
+	}
+	.main-background-content_header{
+		background-size: 53%;
+	}
+	.game_timer_show .etUnit {
+	    padding: 10px 10px;
+	    text-align: center;
+	    max-width: 70px;
+	    min-width: 70px;
+	    margin-right: 8px;
+	    font-size: 0.56em;
+	    margin-bottom: 20px;
+	}
+	.game .game_locations{
+		margin:12px 0 0;
+	}
+	.game .pub_box{
+		width: 240px;
+		height:300px;
+	}
+	.game .table_diagram{
+		top: 50px;
+    	right: 25px;
+	}
+}
+/*Personal*/
+@media only screen and (max-width : 1380px){
+	.etDays, .etHours, .etMinutes, .etSeconds{
+		min-width: auto;
+		margin-right: 20px;
+
+	}
+	.main-background-content_header{
+		background-size: 55%;
+	}
+	.etNumber{
+		font-size: 3.2em !important;
+	}
+	.game_timer_show .etUnit {
+	    padding: 7px 7px;
+	    text-align: center;
+	    max-width: 65px;
+	    min-width: 65px;
+	    margin-right: 8px;
+	    font-size: 0.54em;
+	    margin-bottom: 20px;
+	    height: 70px;
+	}
+	.game_locations {
+	    margin-left: 60px;
+	}
+	.table_diagram{
+		right: 10%;
+	}
+}
+
+/* Large Devices, Wide Screens adapting for menu */
+	/*Personal*/
+@media only screen and (max-width : 1300px) {
+	.main-menu-navigation-heat__header li a {
+	    font-size: .94em;
+	    margin-right: 2px;
+	    padding: 5px 14px;
+	}
+	.main-pannel-heat__header{
+		width:82%;
+	}
+	.main_logo{
+		width: 44%;
+		left: 170px;
+		top: 9px;
+	}
+	.etDays, .etHours, .etMinutes, .etSeconds{
+		margin-right: 15px;
+		padding: 25px 35px;
+	}
+	.main-info-content_header{
+		margin-top: 50px;
+	}
+	.etNumber{
+		font-size: 2.7em !important;
+	}
+	.main-box-list-game h3, .main-box-list-game h4 {
+	    margin: 0px 0px 10px;
+	    font-size: 1.5em;
+	}
+	.main-box-list-game_p {
+	    font-size: 1em;
+	    letter-spacing: 0.8px;
+	}
+	.main-box-list-game h4{
+		font-size: 1.3em;
+	}
+	.main-box-list-game
+	{
+		zoom: 0.9;
+	    width: 92%;
+	    margin: auto;
+	}
+	.main-background_list_game{
+		border-radius: 37% 37% 0 0;
+	}
+	.column_login{
+		max-width: 90px;
+	}
+	.column_name{
+		max-width: 100px;
+	}
+	.home_timer .etDays, .home_timer .etHours, .home_timer .etMinutes, .home_timer .etSeconds {
+	    padding: 10px 20px;
+	    min-width: auto;
+	    margin-right: 15px;
+	}
+	.game_timer_show .etUnit {
+	    padding: 10px 5px;
+	    text-align: center;
+	    max-width: 60px;
+	    min-width: 60px;
+	    margin-right: 8px;
+	    font-size: 0.5em;
+	    margin-bottom: 20px;
+	    height: 65px;
+	}
+
+}
+
+/*Special*/
+@media only screen and (max-width : 1215px) {
+	.column_verified{
+		display: none;
+	}
+	.table_diagram {
+	    right: 5%;
+	}
+	.command_name_label{
+		font-size: .55em;
+	}
+}
+
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.main-pannel-heat__header{
+		width:78%;
+	}
+	.main-pannel_content-heat__header{
+	    padding: 5px 130px 5px 110px;
+	}
+	.main-menu-navigation-heat__header li a {
+	    font-size: .87em;
+	    margin-right: 0px;
+	    padding: 5px 12px;
+	}
+	.main_logo{
+		width: 46%;
+	    left: 150px;
+	    top: 10px;
+	}
+
+	.main-game_timer{
+		margin-top: 15px;
+	}
+	.home_timer .etDays, .home_timer .etHours, .home_timer .etMinutes, .home_timer .etSeconds {
+	    padding: 10px 15px;
+	    min-width: auto;
+	    margin-right: 10px;
+	}
+	.game_timer_show .etUnit {
+	    padding: 5px 5px;
+	    text-align: center;
+	    max-width: 55px;
+	    min-width: 55px;
+	    margin-right: 6px;
+	    font-size: 0.45em;
+	    margin-bottom: 20px;
+	    height: 55px;
+	}
+	.pie{
+		transform: scale(0.4);
+	}
+	.command_name_label{
+		font-size: .53em;
+	}
+}
+
+/* Medium Devices, Desktops  adapting for menu*/
+	/*Personal*/
+@media only screen and (max-width : 1110px) {
+	.main-pannel-heat__header{
+		width:78%;
+	}
+	.main-pannel_content-heat__header{
+	    padding: 5px 90px 5px 110px;
+	}
+	.main-menu-navigation-heat__header li a {
+	    padding: 5px 8px;
+	}
+	.main_logo{
+		width: 50%;
+	    left: 120px;
+	    top: 10px;
+	}
+	.main-menu-heat__header{
+		left: 80px;
+	}
+	.etSign{
+		font-size: 1em !important;
+	}
+	.etNumber{
+		font-size: 2em !important;
+	}
+	.etDays, .etHours, .etMinutes, .etSeconds{
+		margin-right: 10px;
+		padding: 20px 30px;
+	}
+	.column_login{
+		max-width: 80px;
+	}
+	.column_name{
+		max-width: 90px;
+	}
+	.content_welcome{
+		font-size: .8em;
+	}
+	.content_timer h2{
+		font-size: 1.3em;
+	}
+	.content_welcome h1{
+		font-size: 	2em;
+	}
+	.add_command_button{
+		font-size: .4em;
+	}
+	.home_user_box-img svg{
+		font-size: 4.5em;
+	}
+	.home_user_box-title{
+		font-size: 	1em;
+	}
+	.panel-title a {
+	    padding: 10px 6px;
+	    font-size: 0.9em;
+	}
+	.game_timer_show .etUnit {
+	    padding: 5px 5px;
+	    text-align: center;
+	    max-width: 45px;
+	    min-width: 45px;
+	    margin-right: 9px;
+	    font-size: 0.6em;
+	    margin-bottom: 20px;
+	    height: 50px;
+	}
+	.pub_box{
+		min-height: 250px;
+	}
+	.table_diagram {
+	    right: -2%;
+	    top: 13%;
+	}
+	.game_img_box{
+		height:340px;
+	}
+	.command_name_label {
+	    font-size: 0.43em;
+	}
+	.create_game_name{
+		padding-top: 5px
+	}
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.header__height {
+    	height: 80px;
+	}
+	.main-content_header{
+		margin-top:80px;
+	}
+	.main_logo {
+	    width: 30%;
+	    left: 120px;
+	    top: 8px;
+	}
+	.navbar-toggle_menu{
+		top:34px;
+		padding: 6px 6px;
+
+	}
+	.main-background-content_header{
+		-webkit-background-size: 56%;
+		background-size: 56%;
+	}
+	.main-info-content_header{
+		margin-top: 30px;
+	}
+	.main-info-content_header h3{
+		font-size: 1.5em;
+	}
+	.main-info-content_header h4{
+		font-size: .8em;
+	}
+	.etSign{
+		font-size: .7em !important;
+	}
+	.etNumber{
+		font-size: 1.5em !important;
+	}
+	.etDays, .etHours, .etMinutes, .etSeconds{
+		margin-right: 5px;
+		padding: 15px 25px;
+	}
+	.button{
+		padding: 5px 15px;
+		font-size: .9em;
+	}
+	.button_margin{
+		margin-top: 5px;
+	}
+	.slider{
+		height: auto;
+	}
+	.main-background_list_game{
+		border-radius: 0%;
+	}
+	.main_footer-top img {
+	    width: 80%;
+	}
+	.main-footer_numbers p, .main-footer_email p {
+		font-size: 1em;
+	}
+	.main-link {
+		padding-top: 10px;
+	}
+	.main-footer_numbers{
+		padding-top: 25px;
+	}
+	.main-footer_email{
+		padding-top: 35px;
+	}
+	.main-link svg{
+		font-size: 2.5em;
+	}
+	.web-developer {
+    	font-size: 0.85em;
+    }
+    .main-footer_numbers img, .main-footer_email img{
+    	width: 18%;
+	    left: 10px;
+	    top: 15px;
+    }
+    .main-footer_email img{
+	    left: 0px;
+    }
+    .home_content_page{
+    	margin: 10px -15px;
+    }
+    .home_game_boxs {
+	    margin-top: 15px;
+	}
+	.apply_round{
+		right: -12px;
+	}
+	.slider .main-box-list-game_background {
+	    padding: 95px 10px;
+	}
+	.game_timer_show .etUnit {
+	    padding: 10px 5px;
+	    text-align: center;
+	    max-width: 60px;
+	    min-width: 60px;
+	    margin-right: 9px;
+	    font-size: 0.9em;
+	    margin-bottom: 20px;
+	    height: 60px;
+	}
+	.game_img_box{
+		width:300px;
+	}
+	.pub_box {
+	    min-height: 300px;
+	    width: 23.5%;
+	    margin-right: 10px;
+	    display: inline-block;
+	}
+	.pie{
+		transform: scale(0.45);
+	}
+	.table_diagram {
+	    right: 9%;
+	    top: 20%;
+	}
+	.game_locations{
+		margin:0;
+	}
+	.game_img_box {
+	    height: 370px;
+	    margin-bottom: 20px;
+	}
+	.command_name_label {
+    	font-size: 0.6em;
+    }
+    .game .rating_warning{
+    	margin: 40px 0 70px;
+    }
+}
+
+@media only screen and (max-width : 915px) {
+	.pub_box {
+    	min-height: 280px;
+    	width: 22.5%;
+    	margin-right: 3px;
+    	display: inline-block;
+	}
+	.table_diagram {
+	    right: 0%;
+	    top: 16%;
+	}
+}
+
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.white_row{
+		display: none;
+	}
+	/*Disable Animation on Mobile Devices*/
+	.animated {
+		/*CSS transitions*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+	
+	.main_logo{
+		width: 40%;
+	}
+
+	.etSign{
+		font-size: .6em !important;
+	}
+	.etNumber{
+		font-size: 1.2em !important;
+	}
+	.etDays, .etHours, .etMinutes, .etSeconds{
+		margin-right: 5px;
+		padding: 10px 15px;
+	}
+	.main-info-content_header h3{
+		    color: #fff;
+    		font-size: 1.9em;
+	}
+	.main-info-content_header h4{
+		    color: #fff;
+    		font-size: 1em;
+	}
+	.button{
+		    padding: 6px 14px;
+    		font-size: 1em;
+
+	}
+	.smart_call {
+    		top: -45px;
+	}
+	.main-smart_call-content_header {
+	    margin-bottom: 0%;
+	}
+	.main-background-content_header {
+	    background-image: none;
+	    background-color: #3f95a4;
+	}
+	.header_content_logo {
+	    position: static;
+	    width: 100%;
+	}
+	.etSign{
+		font-size: 1em !important;
+	}
+	.etNumber{
+		font-size: 2em !important;
+	}
+	.etDays, .etHours, .etMinutes, .etSeconds{
+		margin-right: 10px;
+		padding: 20px 30px;
+	}
+	.smart_call{
+		right: 75px;
+	}
+	.right, .left{
+		text-align: center;
+	}
+	.right{
+		margin-bottom:20px;
+	}
+	#hid{
+		height: 200vh;
+	}
+	.main_footer-top img{
+		width: 35%;
+	}
+	.main-footer_numbers img, .main-footer_email img {
+	    position: relative;
+	    width: 7%;
+    	margin-left: -65px;
+	    margin-right: 20px;
+	    top: 0px;
+	}
+	.main-footer_email img{
+		position: relative;
+		width: 6%;
+	    margin-left: -44px;
+	    margin-right: 11px;
+	}
+	.main-footer_numbers, .main-footer_email, .main-link {
+		justify-content: center;
+	}
+	.main-footer_numbers, .main-footer_email{
+		padding-top: 35px;
+	}
+	.main-link{
+		padding: 30px 0 0px;
+	}
+	.web-developer{
+		justify-content: center;
+		position: relative;
+    	right: 5px;
+	}
+	.game_img_content{
+		text-align: center;
+	}
+	.game_margin{
+		margin:auto;
+	}
+	.game_timer_show .etUnit {
+	    padding: 10px 5px;
+	    text-align: center;
+	    max-width: 65px;
+	    min-width: 65px;
+	    margin-right: 9px;
+	    font-size: 0.9em;
+	    margin-bottom: 20px;
+	    height: 70px;
+	}
+	.pub_box {
+	    min-height: 310px;
+	    width: 240px;
+	    margin-right: 8px;
+	    display: inline-block;
+	}
+	.game_locations{
+		text-align: center;
+	}
+	.table_diagram {
+	    right: 30px;
+	    top: 60px;
+	}
+	.game_desc{
+		margin-bottom: 20px;
+	}
+
+
+}
+/* Extra Small Devices, Phones adapting for menu*/
+	/*Personal*/
+@media only screen and (max-width : 600px) {
+	.main_logo{
+		width: 51%;
+		left: 80px;
+	}
+	.navbar-toggle_menu{
+		right: 70px;
+	}
+	.etDays, .etHours, .etMinutes, .etSeconds{
+		margin-right: 10px;
+    	padding: 10px 20px;
+	}
+	.button_margin {
+	    margin-top: 0px;
+	}
+	.smart_call {
+	    top: -38px;
+	}
+	.img-box-rule img{
+		margin-left: 30px;
+	}
+	.main-footer_numbers img{
+		margin-left: -45px;
+	}
+	.main-footer_email img{
+		margin-left: -20px;
+	}
+	.slider .main-box-list-game_background {
+	    padding: 50px 5px;
+	}
+}
+
+/*SPECIAL*/
+@media only screen and (max-width : 510px) {
+	.main-box-list-game .center{
+		display:none;
+	}
+	.slider .main-box-list-game_background {
+	    padding: 110px 5px;
+	}
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.main_logo {
+	    width: 62%;
+	    left: 15px;
+	}
+	.navbar-toggle_menu {
+	    right: 0px;
+	    top: 34px;
+	}
+	.main-info-content_header h3 {
+	    font-size: 1.7em;
+	}
+	.main-info-content_header h4 {
+	    font-size: 0.9em;
+	}
+	.etNumber {
+	    font-size: 1.7em !important;
+	}
+	.etSign {
+	    font-size: 0.8em !important;
+	}
+	.button {
+	    padding: 4px 10px;
+	    font-size: 0.9em;
+	}
+	.smart_call {
+	    top: -35px;
+	    width: 10%;
+	    right: 50px;
+	}
+	.img-box-rule img{
+		margin-left: 15px;
+	}
+	.special_ask_button,.text_button{
+		font-size: 1em;
+	}
+	.main-footer_numbers img {
+	    margin-left: -30px;
+	}
+	.main-footer_email img {
+	    margin-left: -10px;
+	}
+	.main_footer-bottom p{
+		font-size: 0.9em;
+	}
+	.main-footer_numbers, .main-footer_email,.main-link {
+	    padding-top: 15px;
+	}
+	.inline_ask{
+		font-size: .85em;
+	}
+	.button_auth{
+		font-size: .9em;
+	}
+	.auth_content h1{
+		font-size: 1.7em;
+	}
+	.form-group{
+		margin-bottom: 12px;
+	}
+	.slider .main-box-list-game_background {
+	    padding: 100px 5px;
+	}
+	#breadcrumb{
+		font-size: 	.8em;
+	}
+	.game_timer_show .etUnit {
+	    padding: 10px 5px;
+	    text-align: center;
+	    max-width: 65px;
+	    min-width: 65px;
+	    margin-right: 9px;
+	    font-size: 1em;
+	    margin-bottom: 20px;
+	    height: 70px;
+	}
+	.game h2{
+		font-size: 2em;
+	}
+	.game h3{
+		font-size: 1.5em;
+	}
+	.game h1{
+		font-size: 1.7em;
+	}
+	.game .game_title{
+		font-size: 0.8em;
+	}
+
+	.game .first_column_rating,
+	.game .second_column_rating,
+	.game .theard_column_rating{
+		font-size: 0.8em;
+	} 
+
+
+}
+
+	/*Personal*/
+@media only screen and (max-width : 390px) {
+	.main_logo {
+	    width: 80%;
+	    left: 15px;
+	}
+	.main-info-content_header h3 {
+	    font-size: 1.28em;
+	}
+	.main-info-content_header h4 {
+	    font-size: 0.8em;
+	}
+	.etNumber {
+	    font-size: 1.5em !important;
+	}
+	.etSign {
+	    font-size: 0.7em !important;
+	}
+	.etDays, .etHours, .etMinutes, .etSeconds {
+	    margin-right: 5px;
+	    padding: 5px 15px;
+	}
+	.smart_call {
+	    top: -33px;
+	    width: 10%;
+	    right: 35px;
+	}
+	.button {
+	    padding: 4px 10px;
+	    font-size: 0.8em;
+	}
+	
+	.img-box-rule img{
+		margin-left: 8px;
+	}
+	.special_ask_button,.text_button{
+		font-size: 1em;
+	}
+
+	.inline_ask{
+		font-size: .75em;
+	}
+	.button_auth{
+		font-size: .85em;
+		padding: 6px 14px; 
+	}
+	.home_timer .etDays, .home_timer .etHours, .home_timer .etMinutes, .home_timer .etSeconds {
+	    padding: 10px 12px;
+	    min-width: auto;
+	    margin-right: 6px;
+	}
+	.content_welcome h1 {
+	    font-size: 1.5em;
+	}
+	.content_timer h2 {
+	    font-size: 1em;
+	}
+	.content_timer{
+		padding: 10px;
+	}
+	.slider .main-box-list-game_background {
+	    padding: 40px 5px;
+	}
+	.game_timer_show .etUnit {
+	    padding: 10px 5px;
+	    text-align: center;
+	    max-width: 60px;
+	    min-width: 60px;
+	    margin-right: 9px;
+	    font-size: 0.9em;
+	    margin-bottom: 20px;
+	    height: 60px;
+	}
+	.game h3{
+		font-size: 1.2em;
+	}
+	.game h1{
+		font-size: 1.7em;
+	}
+	.game .game_title{
+		font-size: 0.7em;
+	}
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	.main-content_header {
+	    margin-top: 50px;
+	}
+	.header__height {
+	    height: 50px;
+	}
+	.main_logo {
+	    width: 58%;
+	    top: 5px;
+	    left: 15px;
+	}
+	.navbar-toggle_menu{
+		padding: 3px 3px;
+		top:13px;
+	}
+	.navbar-toggle_menu .icon-bars{
+		height: 1.5;
+	}
+	.main-info-content_header h3 {
+	    font-size: 1.2em;
+	}
+	.main-info-content_header h4 {
+	    font-size: 0.8em;
+	}
+	.smart_call {
+	    top: -33px;
+	    width: 12%;
+	    right: 15px;
+	}
+	.slider .main-box-list-game_background {
+    	padding: 35px 5px;
+	}
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1300px) {
+	.home_timer .etDays, .home_timer .etHours, .home_timer .etMinutes, .home_timer .etSeconds {
+	    padding: 10px 20px;
+	    min-width: auto;
+	    margin-right: 15px;
+	}
+}
